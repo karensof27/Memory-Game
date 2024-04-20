@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 .board{
-    height: 100px;
+height: 100px;
     width: 91px;
     background-color: rgb(253 0 0 / 43%);
     border-radius: 10px;
