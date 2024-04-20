@@ -133,6 +133,8 @@ body {
 
 .card .front,
 .card .back {
+    color: aliceblue;
+    background-color:rgba(88, 27, 27, 0.651);
     position: absolute;
     height: 100%;
     width: 100%;
