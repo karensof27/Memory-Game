@@ -14,7 +14,7 @@ function flipCard() {
 
     this.classList.toggle('flip');
     moves++;
-    console.log(moves);
+    //console.log(moves);//
     countMoves();
 
     if (!hasflipedCard) {
