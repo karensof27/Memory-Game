@@ -14,16 +14,17 @@ body {
     align-items: center;
 }
 .board{
-height: 100px;
-    width: 91px;
-    background-color: rgb(253 0 0 / 43%);
+height: 480px;
+    width: 460px;
+    background-color: #4b252591;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    perspective: 1000px;
     border-radius: 10px;
-    margin: 0px 10px;
-    position: relative;
-    transform-style: preserve-3d;
-    transition: all 0.8s ease;
-    box-shadow: -3px 5px 5px 3px rgba(0, 0, 0, 0.363);
-    cursor: pointer;
+    box-shadow: -3px 5px 5px 3px rgb(0 0 0 / 81%);
 }
 .shake {
     animation: shaking 0.35s ease-in-out;
