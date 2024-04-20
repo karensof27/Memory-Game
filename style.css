@@ -7,7 +7,10 @@ body {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
-    background-color: rgb(50, 119, 248);
+    background-image: url("https://img.freepik.com/vector-gratis/fondo-dia-mundial-rock-dibujado-mano_23-2149445205.jpg?size=626&ext=jpg&ga=GA1.1.867424154.1713571200&semt=ais");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
     display: flex;
 }
 .board{
